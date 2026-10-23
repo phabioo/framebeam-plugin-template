@@ -1,10 +1,10 @@
-# FrameBeam Plugin: Template
+# Uzume Plugin: Template
 
-Example plugin skeleton and getting-started guide for FrameBeam plugin authors.
+Example plugin skeleton and getting-started guide for Uzume plugin authors.
 
 Status: **planned, nothing implemented.**
 
-Requires FrameBeam with plugin API v1 (FrameBeam 0.11, planned). Part of [FrameBeam](https://github.com/phabioo/framebeam); plugin interface: `docs/architecture/12-plugins.md` there. Plan: [docs/roadmap.md](docs/roadmap.md).
+For Uzume with plugin API v1 (since Uzume 0.11). Part of [Uzume](https://github.com/phabioo/uzume); plugin API: [`docs/guides/plugin-api.md`](https://github.com/phabioo/uzume/blob/main/docs/guides/plugin-api.md) there. Plan: [docs/roadmap.md](docs/roadmap.md).
 
 Every PR description needs a `## Changelog` section (see `.github/pull_request_template.md`); CI checks it with `tools/changelog.py`, and releases should build their notes from these sections.
 

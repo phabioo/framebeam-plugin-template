@@ -2,13 +2,13 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-framebeam-plugin-template is the starting point for new FrameBeam plugins: a minimal example plugin skeleton (`manifest.json`, `main.lua`, `i18n/`, `assets/`) with tests against synthetic data and a CI and packaging setup, planned together with plugin API v1.
+uzume-plugin-template is the starting point for new Uzume plugins: a minimal example plugin skeleton (`manifest.json`, `main.lua`, `i18n/`, `assets/`) with tests against synthetic data and a CI and packaging setup, planned together with plugin API v1.
 
-## Relation to FrameBeam
+## Relation to Uzume
 
-- Plugin for [FrameBeam](https://github.com/phabioo/framebeam) (self-hosted retro gaming platform). Interface: `docs/architecture/12-plugins.md` in the FrameBeam repository.
-- Plugin API v1 is planned (FrameBeam 0.11) and not implemented yet; everything here is design until it exists. Open API items are marked open, never invented.
-- Runtime: Lua 5.4 in the FrameBeam sandbox; UI only as declarative building blocks (no QML).
+- Plugin for [Uzume](https://github.com/phabioo/uzume) (self-hosted retro gaming platform). Interface: `docs/architecture/12-plugins.md` and `docs/guides/plugin-api.md` in the Uzume repository.
+- Plugin API v1 ships with Uzume since 0.11 (`docs/guides/plugin-api.md` there); this repository has no code yet. Open API items are marked open, never invented.
+- Runtime: Lua 5.4 in the Uzume sandbox; UI only as declarative building blocks (no QML).
 
 ## Working rules
 
@@ -38,4 +38,4 @@ framebeam-plugin-template is the starting point for new FrameBeam plugins: a min
 ## Pointers
 
 - Plan and status: `docs/roadmap.md`. Workflow, roles and brief template: `docs/workflow.md`.
-- FrameBeam docs: https://github.com/phabioo/framebeam (`docs/architecture/12-plugins.md`, `docs/adr/0023-plugins.md`).
+- Uzume docs: https://github.com/phabioo/uzume (`docs/guides/plugin-api.md`, `docs/guides/plugin-publishing.md`, `docs/architecture/12-plugins.md`, `docs/adr/0023-plugins.md`).
