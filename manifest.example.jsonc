@@ -1,12 +1,12 @@
-// Draft plugin API v1 (planned, not implemented). Sketch from FrameBeam docs/architecture/12-plugins.md section 16.6.
-// The final manifest is plain JSON without comments; the exact schema is open.
+// Sketch of a plugin API v1 manifest. The reference is docs/guides/plugin-api.md in the Uzume repository.
+// The real manifest is plain JSON without comments.
 {
-  "id": "net.framebeam.example",           // unique plugin id
+  "id": "net.example.hello",           // unique plugin id
   "name": "Example",                       // display name
   "version": "1.0.0",                      // plugin version
   "api": 1,                                // plugin API version; unknown versions are rejected
   "type": "script",                        // "script" (sandboxed Lua); "tool" only for signed official plugins
-  "requires": { "net.framebeam.example-core": "^1.0" },  // dependencies, loaded first
+  "requires": { "net.example.hello-core": "^1.0" },  // dependencies, loaded first
   "provides": ["example.team"],            // interfaces other plugins may call
   "games": [{ "system": "nds", "codes": ["ABC*"] }],     // supported systems and game codes
   "permissions": ["memory.read", "rom.read", "ui", "run.state"],
